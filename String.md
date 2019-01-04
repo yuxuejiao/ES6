@@ -17,14 +17,17 @@ for (let codePoint of 'foo') {
     s.endsWith('!') // true
     s.includes('o') // true
   ``` 
-  第二个参数表示开始搜索的位置
+  startsWith()、includes()
+  第二个参数表示开始搜索的位置到字符串结尾
+  endsWith()
+  第二个参数表示从字符串开始位置到指定字符串的最后一个字符一共有几个字符
   ```
   let s = 'Hello world!';
   s.startsWith('world', 6) // true
   s.endsWith('Hello', 5) // true
-  s.includes('Hello', 6) // false
+  s.endsWith('w', 7) // true
+  s.includes('Hello', 0) // false
   ```
-  endsWith 第二个参数的意义 ？？？
   - repeat()：返回一个新字符串，表示将原字符串重复n次   
   `'hello'.repeat(2)  // hellohello`   
    参数如果是小数，直接取整。
