@@ -36,7 +36,6 @@ for (let codePoint of 'foo') {
    'x'.padStart(5, 'ab') // 'ababx'
    'x'.padStart(4, 'ab') // 'abax'
    ```
-   - matchAll()
    - 模板字符串 --- 取代ES5中的字符串拼接
      用反引号包围，将变量和运算包在${}里面
      
