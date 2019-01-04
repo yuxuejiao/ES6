@@ -17,9 +17,9 @@ for (let codePoint of 'foo') {
     s.endsWith('!') // true
     s.includes('o') // true
   ``` 
-  startsWith()、includes()
-  第二个参数表示开始搜索的位置到字符串结尾
-  endsWith()
+  startsWith()、includes()   
+  第二个参数表示开始搜索的位置到字符串结尾   
+  endsWith()   
   第二个参数表示从字符串开始位置到指定字符串的最后一个字符一共有几个字符
   ```
   let s = 'Hello world!';
